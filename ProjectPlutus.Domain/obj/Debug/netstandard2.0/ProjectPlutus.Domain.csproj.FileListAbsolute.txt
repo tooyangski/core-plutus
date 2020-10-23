@@ -1,0 +1,8 @@
+C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\bin\Debug\netstandard2.0\ProjectPlutus.Domain.deps.json
+C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\bin\Debug\netstandard2.0\ProjectPlutus.Domain.dll
+C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\bin\Debug\netstandard2.0\ProjectPlutus.Domain.pdb
+C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.AssemblyInfoInputs.cache
+C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.AssemblyInfo.cs
+C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.dll
+C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.pdb
+C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.csproj.CoreCompileInputs.cache
