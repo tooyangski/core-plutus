@@ -9,6 +9,7 @@ namespace ProjectPlutus.Infra.Repositories
     {
         T Add(T entity);
         T Update(T entity);
+        Task<bool> DeleteAsync(int id);
         Task<T> GetAsync(int id);
         Task<IEnumerable<T>> GetAllAsync();
         Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate);

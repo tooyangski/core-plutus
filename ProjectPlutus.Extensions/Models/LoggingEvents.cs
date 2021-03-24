@@ -5,6 +5,8 @@
         public const int GetItem = 1000;
         public const int PostItem = 1001;
         public const int PatchItem = 1002;
+        public const int PutItem = 1003;
+        public const int DeleteItem = 1004;
         public const int Diagnostics = 2000;
         public const int Validates = 3000;
         public const int ItemNotFound = 4000;

@@ -31,8 +31,17 @@ namespace ProjectPlutus.Infra.Repositories
             string[] values = { "ModifiedAt" };
             ProcessTimeStamp(entity, values);
 
-            return _context.Update(entity)
-                .Entity;
+            return _context.Update(entity).Entity;
+        }
+
+        public virtual async Task<bool> DeleteAsync(int id)
+        {
+            var entity = await _context.FindAsync<T>(id);
+            _context.Remove(entity);
+
+            var success = await _context.SaveChangesAsync();
+
+            return success > 0;
         }
 
         public virtual async Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate)

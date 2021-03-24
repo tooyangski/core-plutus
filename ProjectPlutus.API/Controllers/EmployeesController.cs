@@ -61,7 +61,7 @@ namespace ProjectPlutus.API.Controllers
             {
                 _logger.LogInformation(
                     LoggingEvents.GetItem,
-                    "Getting all with crated range of: {START} AND createdAtEnd: {END}", createdAtStart, createdAtEnd);
+                    "Getting all with created range of: {START} AND createdAtEnd: {END}", createdAtStart, createdAtEnd);
 
                 var start = DateTimeOffset.Parse(createdAtStart);
                 var end = DateTimeOffset.Parse(createdAtEnd);
@@ -122,18 +122,20 @@ namespace ProjectPlutus.API.Controllers
         {
             var employee = _mapper.Map<Employee>(employeeModificationViewModel);
 
-            _logger.LogInformation(
-                LoggingEvents.PatchItem,
-                "Create record of a employee with ID of: {ID}",
-                employee.Id);
+            if (employee.Id == 0)
+                return NotFound();
+            else
+            {
+                _logger.LogInformation(
+                    LoggingEvents.PatchItem,
+                    "Update record of a employee with ID of: {ID}",
+                    employee.Id);
 
-            _unitOfWork.EmployeeRepository.Update(employee);
-
-            await _unitOfWork.SaveChangesAsync();
-
-            return NoContent();
+                _unitOfWork.EmployeeRepository.Update(employee);
+                await _unitOfWork.SaveChangesAsync();
+                return NoContent();
+            }
         }
-
 
         [HttpPost]
         public async Task<IActionResult> CreateEmployeeAsync(

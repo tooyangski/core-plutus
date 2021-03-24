@@ -9,6 +9,7 @@ namespace ProjectPlutus.Infra
     public interface IUnitOfWork
     {
         IGenericRepository<Employee> EmployeeRepository { get; }
+        IGenericRepository<User> UserRepository { get; }
         Task<bool> SaveChangesAsync();
     }
 
@@ -34,6 +35,21 @@ namespace ProjectPlutus.Infra
                 }
 
                 return employeeRepository;
+            }
+        }
+
+
+        private IGenericRepository<User> userRepository;
+        public IGenericRepository<User> UserRepository
+        {
+            get
+            {
+                if (userRepository == null)
+                {
+                    userRepository = new UserRepository(_context);
+                }
+
+                return userRepository;
             }
         }
 

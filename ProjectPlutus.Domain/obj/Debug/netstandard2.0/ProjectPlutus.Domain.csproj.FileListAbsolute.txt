@@ -6,3 +6,12 @@ C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\ob
 C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.dll
 C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.pdb
 C:\Users\apung\Desktop\core-project-plutus\ProjectPlutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.csproj.CoreCompileInputs.cache
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\bin\Debug\netstandard2.0\ProjectPlutus.Domain.deps.json
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\bin\Debug\netstandard2.0\ProjectPlutus.Domain.dll
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\bin\Debug\netstandard2.0\ProjectPlutus.Domain.pdb
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.AssemblyInfoInputs.cache
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.AssemblyInfo.cs
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.csproj.CoreCompileInputs.cache
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.dll
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.pdb
+C:\Users\apung\Documents\Coding\core-plutus\ProjectPlutus.Domain\obj\Debug\netstandard2.0\ProjectPlutus.Domain.csprojAssemblyReference.cache

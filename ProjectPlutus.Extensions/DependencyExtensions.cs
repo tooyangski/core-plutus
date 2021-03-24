@@ -18,6 +18,7 @@ namespace ProjectPlutus.Extensions
                 o => o.UseSqlServer(connectionString));
 
             services.AddTransient<IGenericRepository<Employee>, EmployeeRepository>();
+            services.AddTransient<IGenericRepository<User>, UserRepository>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
 

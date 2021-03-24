@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
 using ProjectPlutus.API.ViewModels;
+using ProjectPlutus.Domain.Models;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -31,7 +32,7 @@ namespace ProjectPlutus.API.Filters
 
             if (value is IList && value.GetType().IsGenericType)
                 resultFromAction.Value = mapper.Map<IEnumerable<EmployeeViewModel>>(value);
-            else
+            else if (value is Employee)
                 resultFromAction.Value = mapper.Map<EmployeeViewModel>(value);
 
             await next();

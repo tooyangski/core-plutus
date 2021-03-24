@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YKXMp93papBJKQJ9+88SxKzSs2sp1gQRtfvsIMkZp6/rp7Lor6tDoGpEd9bhJ99yZyJmq8PUmmmYhHtR15hdBg==",
+  "dgSpecHash": "0jLok3MkdY4r9sH1U3BROBbRWBmVNrl3lev9xi8RJ6mLXWs35S9Jjtc9SFdkVHfVjB3RzzURo0y1W8s5rXeR4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\apung\\Desktop\\core-project-plutus\\ProjectPlutus\\ProjectPlutus.Domain\\ProjectPlutus.Domain.csproj",
+  "projectFilePath": "C:\\Users\\apung\\Documents\\Coding\\core-plutus\\ProjectPlutus.Domain\\ProjectPlutus.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\apung\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\apung\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\apung\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
